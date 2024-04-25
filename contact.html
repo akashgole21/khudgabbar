@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Khud Gabbar</title>
+        <link href="css/main.bundle.css" rel="stylesheet" type="text/css">
+        <link href="css/custom.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
+       
+         <!-- font links -->
+         <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+        <link rel="shortcut icon" type="image/png" href="images/logo/logo.png" />
+       
+    </head>
+    <body>
+        <header class="fixed-top text-white">
+            <div class="navbar"><a class="navbar-brand" href="index.html"> 
+               <img class="default" alt="Khud Gabbar" src="images/logo/logo.png">
+               <img class="inverted" alt="Khud Gabbar" src="images/logo/logo.png"></a>
+               <button class="navbar-toggler small-text" type="button" data-toggle="collapse" data-target="#navbar">
+                  <span class="toggle-label">Menu</span><span class="toggle-label-close">Close</span><span class="toggle-icon"><span class="line"></span><span class="line"></span></span></button></div>
+            <ul id="nav">
+                <li class="nav-item active"><a class="nav-link" href="index.html">home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">about Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li>
+            </ul>
+         </header>
+        <main>
+            <section class="jumbotron jumbotron-fluid pb-0 bg-dark">
+                <div class="bg o-5 bg-image" style="background-image: url(images/contact/contact.jpg); background-size:cover;"></div>
+                <div class="container text-white py-5">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2 hero-title">
+                            <h1 class="massive in-left">
+                                <span id="typed"></span><span id="typed-strings"><span>Gabbar</span><span>kaha</span><span>Milega?</span></span>
+                            </h1>
+                        </div>
+                    </div>
+                   
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <h4 class="mt-5">Want to make something great? <br/> Get in touch and let's make it happen!</h4>
+                           
+                            <form class="mt-4 mb-n10 small-text" method="post" action="js/sendenquiry.php" onSubmit="javascript:return validate();">
+                                <div class="form-group"><input class="form-control" id="name" name="name" type="text" placeholder="Name" /></div>
+                                <div class="form-group"><input class="form-control" id="email" name="email" type="email" placeholder="Email" /></div>
+                                <div class="form-group"><input class="form-control" id="phone" name="phone" type="phone" placeholder="Phone" /></div>
+                                <div class="form-group"><textarea class="form-control" id="message" name="message" rows="6" placeholder="Message"></textarea></div>
+                                <button class="btn" type="submit" value="Send message">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="pb-10 border-bottom pb-6 contact-bg ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <h2>
+                                Projects done right <br />
+                                when schedules are tight.
+                            </h2>
+                            <div class="border-bottom my-5"></div>
+                        </div>
+                    </div>
+                    <div class="row size-sm small-text">
+                        <div class="col-lg-4 offset-lg-2">
+                            <p>
+                                <strong>Address</strong><br />
+                                407 Mango Nest<br />
+                                Pune CA 02110
+                            </p>
+                        </div>
+                        <div class="col-lg-1 offset-lg-1">
+                            <p>
+                                <strong>
+                                    Phone<br />
+                                    Mail<br />
+                                    Twitter<br />
+                                </strong>
+                            </p>
+                        </div>
+                        <div class="col-lg-2 text-right">
+                            <p>
+                                0123456789<br />
+                                test@email.com<br />
+                                @testtwitter
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container-fluid p-5 small-text">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="social">
+                        <a class="trigger" href="#.">Follow</a>
+                        <ul class="social-nav">
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Vimeo</a></li>
+                            <li><a href="#">YouTube</a></li>
+                        </ul>
+                    </div>
+                    <div class="copy">2021 &copy; Khud Gabbar. All rights reserved</div>
+                    <a class="to-top" href="#">
+                        <i class="fa fa-arrow-up"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/main.bundle.js"></script>
+    </body>
+</html>
